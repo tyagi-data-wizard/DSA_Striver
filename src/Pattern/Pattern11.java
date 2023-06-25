@@ -11,9 +11,9 @@ public class Pattern11 {
 1 0 1 0 1
      */
 
-    static int var ;
+    //static int var ;
     static void printTriangle(int n) {
-
+        int var =1;
         for(int row=0;row<n;row++){
             if(row%2==0){
                 //start with 1
@@ -26,19 +26,19 @@ public class Pattern11 {
             for(int col=0;col<=row;col++){
 
                 System.out.print(var+" ");
-                flip(var);
+                var = flip(var);
             }
             System.out.println();
         }
     }
 
-    static void flip(int n){
+    static int flip(int n){
         if(n==0){
-            var=1;
-            return;
+            n=1;
+            return n;
         }
-        var = 0;
-        return;
+        n = 0;
+        return n;
     }
     public static void main(String[] args) {
 
