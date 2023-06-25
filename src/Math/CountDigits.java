@@ -2,7 +2,16 @@ package Math;
 
 public class CountDigits {
 
-    static int evenlyDivides(int N){
+    static int evenlyDivides3(int N){
+      int len = (int) Math.floor(Math.log10(N))+1;
+      return len;
+    }
+
+    static int evenlyDivides2(int N){
+        String s = String.valueOf(N);
+        return s.length();
+    }
+    static int evenlyDivides1(int N){
         int og = N;
         int count = 0;
 
@@ -21,9 +30,12 @@ public class CountDigits {
 
     public static void main(String[] args) {
 
-        int count = evenlyDivides(45);
+        int count = evenlyDivides1(45);
         System.out.println(count);
 
+        System.out.println("length = "+evenlyDivides2(46546));
+
+        System.out.println("length = "+evenlyDivides3(46546));
 
     }
 }
