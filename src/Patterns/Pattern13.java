@@ -1,16 +1,17 @@
-package Pattern;
+package Patterns;
 
-public class Pattern16 {
+public class Pattern13 {
 
     static void printTriangle(int n) {
 
-        char alpha = 'A';
+        int count=1;
+
         for(int row=0;row<n;row++){
             for(int col=0;col<=row;col++){
-                System.out.print(alpha);
+                System.out.print(count+" ");
+                count++;
             }
             System.out.println();
-            alpha++;
         }
     }
 

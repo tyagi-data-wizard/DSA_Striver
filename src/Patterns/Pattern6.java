@@ -1,16 +1,13 @@
-package Pattern;
+package Patterns;
 
-public class Pattern3 {
+public class Pattern6 {
 
     static void printTriangle(int n) {
         for(int row=0;row<n;row++){
-
-            for(int col=0;col<=row;col++){
-                System.out.print(col+1+" ");
-
+            for(int col=1;col<=n-row;col++){
+                System.out.print(col+" ");
             }
             System.out.println();
-
         }
 
     }
