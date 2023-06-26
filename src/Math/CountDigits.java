@@ -5,6 +5,7 @@ public class CountDigits {
 
     //problem link : https://practice.geeksforgeeks.org/problems/count-digits5716/1
 
+
     static int evenlyDivides3(int N){
       int len = (int) Math.floor(Math.log10(N))+1;
       return len;
