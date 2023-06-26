@@ -13,7 +13,7 @@ public class CheckPalindrome {
     }
 
     static boolean checkPalindrome(int n){
-
+        //log(n) : since we're iterating the number of digits in n
         int rev = reverseNumber(n);
         if(rev==n){
             return true;
