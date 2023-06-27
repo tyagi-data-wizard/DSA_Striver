@@ -16,3 +16,9 @@ K
 src/Patterns/Pattern11.java,8\1\819ad6ff0cae5ebaf13e6a7deb3033e54d71a4f0
 J
 src/Patterns/Pattern9.java,4\4\4492d95c296bf741a10b069ff4d30b3c1bd6115a
+K
+src/Patterns/Pattern14.java,c\8\c80346dd602e1ab0369ab3b1354466caf685d2a7
+K
+src/Patterns/Pattern13.java,6\d\6d439ad5f09d44607f9149bb881a95fdca26a061
+K
+src/Patterns/Pattern10.java,c\6\c6481f05806f7fb28eebb7f326e16b0dc9f357d9
