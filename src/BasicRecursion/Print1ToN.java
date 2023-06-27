@@ -3,7 +3,7 @@ package BasicRecursion;
 public class Print1ToN {
 
 
-    public static void printNos(int N)
+    static void printNos(int N)
     {
         while(N>0){
 
