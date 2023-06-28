@@ -17,7 +17,7 @@ public class SumofNNumbers {
         }
 
         // Function call to increment sum by i till i decrements to 1.
-        sumRecursionParamterized(n-1,sum+i);
+        sumRecursionParamterized(n-1,sum+n);
     }
 
     public static void main(String[] args) {
