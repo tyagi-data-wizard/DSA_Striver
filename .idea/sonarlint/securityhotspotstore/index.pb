@@ -22,3 +22,7 @@ K
 src/Patterns/Pattern13.java,6\d\6d439ad5f09d44607f9149bb881a95fdca26a061
 K
 src/Patterns/Pattern10.java,c\6\c6481f05806f7fb28eebb7f326e16b0dc9f357d9
+S
+#src/BasicMaths/CheckPalindrome.java,8\f\8f0d1d7dd426c0e1b9b0c6980d92b22d00c6a4da
+Q
+!src/BasicMaths/ReverseNumber.java,9\a\9a09588c2da501aa3e487852ec3bb4ab74bb2b56
