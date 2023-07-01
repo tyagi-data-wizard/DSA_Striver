@@ -26,27 +26,7 @@ S
 #src/BasicMaths/CheckPalindrome.java,8\f\8f0d1d7dd426c0e1b9b0c6980d92b22d00c6a4da
 Q
 !src/BasicMaths/ReverseNumber.java,9\a\9a09588c2da501aa3e487852ec3bb4ab74bb2b56
-U
-%src/BasicRecursion/SumofNNumbers.java,e\2\e2523a3ef7bf3325394065e0d6a2d7cfb97f0df2
-V
-&src/BasicRecursion/PrintNameNTime.java,8\1\814df31cb1601851ff28834862ce140b297a8cd6
 G
 src/BasicMaths/GCD.java,3\f\3f219c2c8551cd1975763f142399c8332d2e0f96
 S
 #src/BasicMaths/ArmstrongNumber.java,5\3\53f7c4c6e5e673ab951f225dde5d96b927ca8586
-O
-src/BasicMaths/AllDivisors.java,4\1\4138dd9ee13b97fa89bb1b171ef24109d6c3889c
-T
-$src/BasicRecursion/FactorialOfN.java,2\f\2f9c39885e0f551906cfd348522fd5ff9b9df675
-O
-src/BasicMaths/PrimeNumber.java,0\4\046bc366f6ae034af64f436305ace64c71f089c5
-Q
-!src/BasicRecursion/Print1ToN.java,9\e\9e7007d5371d3209af6fa865dfc22a44b674a31f
-Q
-!src/BasicRecursion/PrintNTo1.java,e\6\e6a38bc6a6f6e3cd885b0d39f6fc44e1c3d8bec7
-T
-$src/BasicRecursion/ReverseArray.java,8\c\8cfe986829a6654704bcee270bf602dc25508d25
-Z
-*src/BasicRecursion/IsStringPalindrome.java,d\5\d5bd7bac26bafcd7d8cea57ed90d7112616caae9
-W
-'src/BasicRecursion/FibonacciSeries.java,6\c\6cbfc41a098018f1ef7c55674ff9afdd9f3c2a49

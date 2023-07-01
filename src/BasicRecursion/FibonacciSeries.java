@@ -3,7 +3,12 @@ package BasicRecursion;
 public class FibonacciSeries {
 
 
-    // 0 +1 +1 +2 +3 +5
+    // f(5) = f(3) + f(4)
+    // f(4) = f(3) + f(2)
+    // f(3) = f(1) + f(0)
+    // f(2) = f(0) + f(1) =
+    //f(1) = 1
+    //f(0) = 0
 
 
     //
@@ -11,18 +16,18 @@ public class FibonacciSeries {
     static int fibonacciSeries(int n){
 
         if(n==0 || n==1){
+            System.out.print(n+" ");
             return n;
         }
 
-        return fibonacciSeries(n-1) + fibonacciSeries(n-2);
-
+        return fibonacciSeries(n-2) + fibonacciSeries(n-1);
 
     }
 
 
     public static void main(String[] args) {
 
-        System.out.println(fibonacciSeries(5));
+    fibonacciSeries(5);
 
     }
 }
