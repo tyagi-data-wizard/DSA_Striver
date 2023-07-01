@@ -31,7 +31,7 @@ public class FrequencyOfElementInArray {
 
         int[] arr = new int[]{1,2,4,4,6,6};
 
-        frequencyCountNaive(arr);
+        frequencyCount(arr);
 
     }
 }
