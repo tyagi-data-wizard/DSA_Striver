@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class FrequencyOfElementInArray {
 
-    static void frequencyCountNaive(int[] arr){
+    static void frequencyCount(int[] arr){
         HashMap<Integer,Integer> map = new HashMap<>();
 
         for(int i : arr){
