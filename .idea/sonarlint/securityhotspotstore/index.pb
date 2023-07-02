@@ -30,3 +30,7 @@ G
 src/BasicMaths/GCD.java,3\f\3f219c2c8551cd1975763f142399c8332d2e0f96
 S
 #src/BasicMaths/ArmstrongNumber.java,5\3\53f7c4c6e5e673ab951f225dde5d96b927ca8586
+O
+src/BasicMaths/AllDivisors.java,4\1\4138dd9ee13b97fa89bb1b171ef24109d6c3889c
+O
+src/BasicMaths/PrimeNumber.java,0\4\046bc366f6ae034af64f436305ace64c71f089c5
