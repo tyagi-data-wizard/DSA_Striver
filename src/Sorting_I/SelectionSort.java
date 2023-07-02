@@ -7,27 +7,15 @@ public class SelectionSort {
 
     public static void main(String[] args) {
 
-        System.out.println("Please enter length of array : ");
-        Scanner sc = new Scanner(System.in);
-        int len = sc.nextInt();
-        int[] arr = new int[len];
-        System.out.println("Enter array elements");
-        for (int i=0;i<len;i++){
-            arr[i] = sc.nextInt();
-        }
+        int[] arr  = inputArray();
 
         System.out.println("UnSorted Array : ");
-        for (int i:arr) {
-            System.out.print(i+ " ");
-        }
+        printArray(arr);
 
-       selectionSort(arr);
+        selectionSort(arr);
 
         System.out.println("\nSorted Array : ");
-        for (int i:arr) {
-            System.out.print(i+ " ");
-        }
-
+        printArray(arr);
     }
 
     //find min; swap
@@ -57,4 +45,22 @@ public class SelectionSort {
         arr[min] = temp;
 
     }
+
+    private static void printArray(int[] arr){
+        for (int i:arr) {
+            System.out.print(i+ " ");
+        }
+    }
+    private static int[] inputArray() {
+        System.out.println("Enter length of array");
+        Scanner sc = new Scanner(System.in);
+        int len = sc.nextInt();
+        int[] arr = new int[len];
+        System.out.println("Enter array elements");
+        for (int i = 0; i <len; i++) {
+            arr[i] = sc.nextInt();
+        }
+        return arr;
+    }
+
 }
