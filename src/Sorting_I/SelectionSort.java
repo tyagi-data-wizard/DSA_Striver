@@ -2,6 +2,7 @@ package Sorting_I;
 
 import java.util.Scanner;
 
+
 public class SelectionSort {
 
     public static void main(String[] args) {
@@ -45,12 +46,12 @@ public class SelectionSort {
            //swap
             swapElement(i,min, arr);
 
+
         }
 
     }
 
     private static void swapElement(int i, int min, int[] arr) {
-
         int temp = arr[i];
         arr[i] = arr[min];
         arr[min] = temp;
