@@ -45,6 +45,7 @@ public class SelectionSort {
         arr[min] = temp;
 
     }
+    
 
     private static void printArray(int[] arr){
         for (int i:arr) {
