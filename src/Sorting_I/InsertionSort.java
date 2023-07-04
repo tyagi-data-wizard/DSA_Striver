@@ -16,6 +16,7 @@ public class InsertionSort {
         printArray(arr);
     }
 
+    //insert element in its correct place
     private static void insertionSort(int[] arr){
 
         for (int i = 1; i < arr.length; i++) {
