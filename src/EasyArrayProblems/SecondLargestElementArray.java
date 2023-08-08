@@ -12,7 +12,7 @@ public class SecondLargestElementArray {
         return arr[arr.length - 2];
     }
 
-    private static int secondMaxUsingTraversal(int[] arr){
+    private static int secondMaxUsingMax(int[] arr){
         //find max first
         int max = Integer.MIN_VALUE;
 
@@ -36,6 +36,25 @@ public class SecondLargestElementArray {
 
     }
 
+    private static int secondMaxUsingSingleTraversal(int[] arr){
+        int max = Integer.MIN_VALUE;
+        int secondMax = Integer.MIN_VALUE;
+
+        for(int i:arr){
+            if(i > max){
+                secondMax = max;
+                max = i;
+
+            }
+
+//            if(i > secondMax && i!=max){
+//                secondMax = i;
+//            }
+        }
+
+        return secondMax;
+    }
+
     private static int[] inputArray(){
         System.out.println("Enter the length of array");
         int len;
@@ -54,7 +73,9 @@ public class SecondLargestElementArray {
 
         System.out.println("The second max using sorted  is:"+secondMaxUsingSort(arr));
 
-        System.out.println("The second max using traversal is:"+secondMaxUsingTraversal(arr));
+        System.out.println("The second max using traversal is:"+secondMaxUsingMax(arr));
+
+        System.out.println("The second max using single traversal is:"+secondMaxUsingSingleTraversal(arr));
 
     }
 }
