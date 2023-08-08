@@ -42,3 +42,21 @@ Q
 !src/BasicRecursion/PrintNTo1.java,e\6\e6a38bc6a6f6e3cd885b0d39f6fc44e1c3d8bec7
 T
 $src/BasicRecursion/ReverseArray.java,8\c\8cfe986829a6654704bcee270bf602dc25508d25
+M
+src/Sorting_I/BubbleSort.java,0\3\034a0e4dd3b2da7ee67569714e71b15398c5e7d4
+M
+src/Sorting_II/MergeSort.java,0\d\0dab981fca65471372be0eb65e6c24052af982a3
+Z
+*src/BasicRecursion/IsStringPalindrome.java,d\5\d5bd7bac26bafcd7d8cea57ed90d7112616caae9
+V
+&src/BasicHashing/HighLowFrequency.java,f\2\f2783266562dd79976931d497b2e61a1b9f836a5
+W
+'src/BasicRecursion/FibonacciSeries.java,6\c\6cbfc41a098018f1ef7c55674ff9afdd9f3c2a49
+U
+%src/BasicRecursion/SumofNNumbers.java,e\2\e2523a3ef7bf3325394065e0d6a2d7cfb97f0df2
+_
+/src/BasicHashing/FrequencyOfElementInArray.java,c\b\cbb55d23564bcdddcba95180c088e66029d41eec
+P
+ src/Sorting_I/SelectionSort.java,0\5\054e3e12fed45e70c491e858bb8799663a44b49f
+P
+ src/Sorting_I/InsertionSort.java,2\4\24bf7f129a2a0cfb0ce9380691abe2565014f41c
