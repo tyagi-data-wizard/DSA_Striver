@@ -5,6 +5,18 @@ import java.util.Scanner;
 
 public class RemoveDuplicatesFromSortedArray {
 
+    private  static int removeDuplicates(int[] arr){
+        int i =0;
+        for(int j =1;j<arr.length;j++){
+            if(arr[i]!=arr[j]){
+                i++;
+                arr[i]=arr[j];
+            }
+        }
+        return i+1;
+
+    }
+
 
     private static int removeDuplicatesUsingSet(int[] arr){
         HashSet<Integer> set = new HashSet<>();
@@ -49,7 +61,8 @@ public class RemoveDuplicatesFromSortedArray {
 
         int[] arr = inputArray();
 
-        System.out.println("The unique elements in this array are: "+removeDuplicatesUsingSet(arr));
+        //System.out.println("The unique elements in this array are: "+removeDuplicatesUsingSet(arr));
+        System.out.println("The unique elements in this array are: "+removeDuplicates(arr));
         printArray(arr);
 
 
