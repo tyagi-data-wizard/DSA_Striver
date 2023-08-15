@@ -3,7 +3,7 @@ package EasyArrayProblems;
 import java.util.Scanner;
 
 public class LeftRotateArrayByOne {
-
+    
     private static void leftRotate(int[] arr){
 
         int first = arr[0];
