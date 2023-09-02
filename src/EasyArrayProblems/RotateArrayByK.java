@@ -5,17 +5,24 @@ import java.util.Scanner;
 public class RotateArrayByK {
 
    // 1 2 3 4 5
-    // k =2 -> 4 5 1 2 3
-    //i = 2; arr[4] = arr[2]
-    //i=1; arr[3] = arr[1]
-    //i=0; arr[2] = arr[0]
+    // k =2 -> 3 4 5 1 2
+
+    private static void leftRotateArray(int k, int[] arr){
+        //store first k elements in temp array
+
+
+        //shift the rest of the elements k times on the left
+
+        // place those k elements at the back
+    }
+
 
     private static void rightRotateArray(int k, int[] arr){
         int len = arr.length;
         k=k%len;
         int[] temp = new int[k];
 
-        //storing elements from len-k to len in temp array
+        //storing last k elements in temp array
         for(int i=len-k; i<len;i++){
             temp[i-len+k] = arr[i];
         }
