@@ -1,0 +1,23 @@
+
+Q
+java:S3740G"/Provide the parametrized type for this generic.(¨ŒÍÊúÿÿÿÿ8³è’°Æ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Æ¼“Ê8·è’°Æ1
+o
+java:S3776	"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(žð²ª8Àê’°Æ1
+]	java:S125"<This block of commented-out lines of code should be removed.(Ò¨ô¦üÿÿÿÿ8Àê’°Æ1
+]	java:S125"<This block of commented-out lines of code should be removed.(ÿ Œ«ùÿÿÿÿ8Äê’°Æ1
+Z
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(¨Ì@8Äê’°Æ1
+[
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(²¥ïã8Äê’°Æ1
+G	java:S106+"+Replace this use of System.out by a logger.(€õòÐ8Ìê’°Æ1
+G	java:S106,"+Replace this use of System.out by a logger.(åž²¤8Ìê’°Æ1
+L	java:S106C"+Replace this use of System.out by a logger.(¢¯‚øÿÿÿÿÿ8Ðê’°Æ1
+L	java:S106D"+Replace this use of System.out by a logger.(óÂíïúÿÿÿÿ8Ðê’°Æ1
+L	java:S106E"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8Ôê’°Æ1
+L	java:S106I"+Replace this use of System.out by a logger.(Ðýò›úÿÿÿÿ8Ôê’°Æ1
+F	java:S106N"+Replace this use of System.out by a logger.(ŽïÇI8Öê’°Æ1
+G	java:S106R"+Replace this use of System.out by a logger.( ›ËÛ8Ýê’°Æ1
+X	java:S125`"<This block of commented-out lines of code should be removed.(·Ú“8âê’°Æ1
+Q
+java:S11443"4Remove this unused private "unionArrayByMap" method.(â÷Û¦8âê’°Æ1
