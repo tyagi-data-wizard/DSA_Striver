@@ -1,6 +1,7 @@
 package EasyArrayProblems;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class FindNumAppearingOnce {
@@ -37,11 +38,22 @@ public class FindNumAppearingOnce {
         HashMap<Integer,Integer> map = new HashMap<>();
 
         for (int i =0 ;i<arr.length; i++){
-//            if(map.containsKey(arr[i])){
-                map.put(arr[i],map.get(arr[i])+1);
-
+            if(map.containsKey(arr[i])) {
+                map.put(arr[i], 2);
+            }else{
+                map.put(arr[i],1);
+            }
         }
 
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            //Integer key = entry.getKey();
+            //Integer value = entry.getValue();
+            if(entry.getValue()==1){
+                return entry.getKey();
+            }
+
+        }
+        return -1;
     }
 
     public static int[] inputArray(){
@@ -60,7 +72,8 @@ public class FindNumAppearingOnce {
 
         System.out.println("Array contains all numbers twice except one");
         int[] arr = inputArray();
-        System.out.println("The number appearing only once is : "+findNumLinearSearch(arr));
+        System.out.println("The number appearing only once via brute force is : "+findNumLinearSearch(arr));
+        System.out.println("The number appearing only once via map is : "+findNumMap(arr));
 
     }
 }
