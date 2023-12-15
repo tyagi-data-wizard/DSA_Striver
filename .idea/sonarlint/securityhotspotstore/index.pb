@@ -80,3 +80,5 @@ W
 'src/EasyArrayProblems/LinearSearch.java,6\7\675ac85f24f4149e425bcc43593116d19181fc01
 _
 /src/EasyArrayProblems/MissingNumberInArray.java,9\4\94fa166747ed72ad9c95210e154d2c3dbe4b8384
+b
+2src/EasyArrayProblems/MaxConsecutiveOnesArray.java,c\c\cc56737a8c82d7192162a22fcd12231cb7107d29
