@@ -8,8 +8,12 @@ public class LongestSubArraySumkPositive {
 
 
     static Scanner sc  = new Scanner(System.in);
+
     public static int findSubArrayBrute(int[] arr, int K){
         //1, 11, 112, 1121,...
+        //1 2 3 1 1 1 1 4 2 3
+        // 1
+        // 1 2, 123, 1231,
 
         int max  = 0;
         for(int i = 0;i<arr.length;i++){
@@ -35,6 +39,20 @@ public class LongestSubArraySumkPositive {
 
     }
 
+    public static int findSubArrayBruteEnhanced(int[] arr, int K){
+        int max = 0;
+        for(int i = 0 ;i<arr.length;i++){
+            int sum = 0;
+            for (int j = i; j < arr.length; j++) {
+                sum += arr[j];
+                if(sum == K ){
+                    max = max(max,j-i+1);
+                }
+            }
+        }
+        return max;
+    }
+
     public static int[] inputArray(){
         System.out.println("Enter N");
 
@@ -53,7 +71,8 @@ public class LongestSubArraySumkPositive {
         int K = sc.nextInt();
 
 
-        System.out.println("The longest sub array wth sum "+K+" is : "+ findSubArrayBrute(arr,K));
+        System.out.println("The longest sub array wth sum "+K+" via Brute force is : "+ findSubArrayBrute(arr,K));
+        System.out.println("The longest sub array wth sum "+K+" via  Enhanced Brute force is : "+ findSubArrayBruteEnhanced(arr,K));
 
     }
 }
