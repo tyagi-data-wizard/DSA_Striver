@@ -84,3 +84,5 @@ b
 2src/EasyArrayProblems/MaxConsecutiveOnesArray.java,c\c\cc56737a8c82d7192162a22fcd12231cb7107d29
 _
 /src/EasyArrayProblems/FindNumAppearingOnce.java,d\5\d5e3da409af9baf61dafc261f551092134e979c7
+f
+6src/EasyArrayProblems/LongestSubArraySumkPositive.java,a\3\a3addb4fe898f7f47e2c2daf4e0bd682bcd5c659
