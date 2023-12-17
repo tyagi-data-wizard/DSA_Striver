@@ -18,9 +18,15 @@ public class LongestSubArraySumkPositive {
                int sum = 0;
                 for(int k  =i;k<=j;k++){
                     sum=sum+arr[k];
+                    //enhancing
+                    if(sum>K){
+                        break;
+                    }
                 }
-                if(sum == K){
+                if(sum == K ){
                     max = max(max,j-i+1);
+                }else if(sum > K){      //enhancing
+                    break;
                 }
             }
         }
