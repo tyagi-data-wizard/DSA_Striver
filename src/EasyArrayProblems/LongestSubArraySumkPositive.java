@@ -1,7 +1,10 @@
 package EasyArrayProblems;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
+import static java.lang.Math.abs;
 import static java.lang.Math.max;
 
 public class LongestSubArraySumkPositive {
@@ -53,8 +56,63 @@ public class LongestSubArraySumkPositive {
         return max;
     }
 
+    public static int findSubArrayBetter(int[] arr, int K){
+        HashMap<Integer,Integer> map = new HashMap<>();
+
+        int max=0;
+        int sum = 0;
+        for(int i = 0;i<arr.length ; i++){
+            sum=+arr[i];
+
+            if(sum == K){
+                max =max(max, i+1);
+
+            }
+
+            int req = abs(K - sum);
+            if(map.containsKey(req)){
+                int len = i - map.get(req);
+                max = max(max,len);
+            }
+
+
+            if(!map.containsKey(sum)){
+                map.put(sum,i);
+            }
+        }
+        return max;
+    }
+
+
+    public static int findSubArrayOptimized(int[] arr, int K){
+        //two pointer approach
+        // 2 1 3 1 1 1 4 2 3
+        //
+
+        int sum = 0;
+        int max = 0;
+
+        int p1 = 0;
+        int p2 = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            sum=+arr[i];
+
+            if(sum == K){
+                max= max(max,i+1-p2);
+            }
+
+            if(sum>K){
+                int rem = max - arr[p2];
+                p2++;
+            }
+        }
+
+
+    }
+
     public static int[] inputArray(){
-        System.out.println("Enter N");
+       System.out.println("Enter N");
 
         int N = sc.nextInt();
         int[] arr = new int[N];
@@ -73,6 +131,8 @@ public class LongestSubArraySumkPositive {
 
         System.out.println("The longest sub array wth sum "+K+" via Brute force is : "+ findSubArrayBrute(arr,K));
         System.out.println("The longest sub array wth sum "+K+" via  Enhanced Brute force is : "+ findSubArrayBruteEnhanced(arr,K));
+        System.out.println("The longest sub array wth sum "+K+" via  better approach is : "+ findSubArrayBetter(arr,K));
+
 
     }
 }

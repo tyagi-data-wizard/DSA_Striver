@@ -1,11 +1,24 @@
 
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é¼¢Çúÿÿÿÿ8ÎÊ¹¼Ç1
-r	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷óÉøÿÿÿÿ8ÎÊ¹¼Ç1
-m	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁü8ÎÊ¹¼Ç1
-m	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À„Œ…8ÎÊ¹¼Ç1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Æ¼“Ê8ĞÊ¹¼Ç1
-L	java:S1069"+Replace this use of System.out by a logger.(ƒ¸ƒ–ûÿÿÿÿ8Ë¹¼Ç1
-G	java:S106="+Replace this use of System.out by a logger.( ›ËÛ8Ë¹¼Ç1
-L	java:S106F"+Replace this use of System.out by a logger.(ÄÈƒçùÿÿÿÿ8Ë¹¼Ç1
-L	java:S106J"+Replace this use of System.out by a logger.(ŸÑáòıÿÿÿÿ8Ë¹¼Ç1
-G	java:S106K"+Replace this use of System.out by a logger.(¾÷êÇ8ì·¿¼Ç1
+‚
+java:S1192„"_Define a constant instead of duplicating this literal "The longest sub array wth sum " 3 times.(ŸÑáòıÿÿÿÿ8ÏñåÇ1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é¼¢Çúÿÿÿÿ8ÏñåÇ1
+r	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷óÉøÿÿÿÿ8“ÏñåÇ1
+m	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™üüé8“ÏñåÇ1
+r	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤éµ’úÿÿÿÿ8“ÏñåÇ1
+m	java:S117u"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÁü8“ÏñåÇ1
+n	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À„Œ…8“ÏñåÇ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Æ¼“Ê8”ÏñåÇ1
+Y
+java:S1854j"7Remove this useless assignment to local variable "rem".(Ñ×“ùıÿÿÿÿ8íĞñåÇ1
+I
+java:S1481_"'Remove this unused "p1" local variable.(ëëªõşÿÿÿÿ8íĞñåÇ1
+J
+java:S1481j"(Remove this unused "rem" local variable.(Ñ×“ùıÿÿÿÿ8íĞñåÇ1
+L	java:S106s"+Replace this use of System.out by a logger.(ƒ¸ƒ–ûÿÿÿÿ8íĞñåÇ1
+G	java:S106w"+Replace this use of System.out by a logger.( ›ËÛ8íĞñåÇ1
+M	java:S106€"+Replace this use of System.out by a logger.(ÄÈƒçùÿÿÿÿ8íĞñåÇ1
+M	java:S106„"+Replace this use of System.out by a logger.(ŸÑáòıÿÿÿÿ8íĞñåÇ1
+H	java:S106…"+Replace this use of System.out by a logger.(¾÷êÇ8íĞñåÇ1
+M	java:S106†"+Replace this use of System.out by a logger.(Ìûç˜ÿÿÿÿÿ8íĞñåÇ1
+L
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8íĞñåÇ1
