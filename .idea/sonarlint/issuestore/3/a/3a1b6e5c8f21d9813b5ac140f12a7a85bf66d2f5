@@ -1,0 +1,14 @@
+
+r
+java:S1192O"UDefine a constant instead of duplicating this literal "Variant1 solution : " 3 times.(™ü¡ƒ8Íï·ÕÎ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÔõÊâüÿÿÿÿ8À¶ÕÎ1
+T
+java:S25893"7Remove this expression which always evaluates to "true"(Ÿ‰ÒÄ8‡®ÊÕÎ1
+E
+java:S1659+"#Declare "right" on a separate line.(¨İø¹úÿÿÿÿ8 À¶ÕÎ1
+L	java:S106>"+Replace this use of System.out by a logger.(Âæ¬áıÿÿÿÿ8 À¶ÕÎ1
+L	java:S106A"+Replace this use of System.out by a logger.(©Õ³°øÿÿÿÿ8 À¶ÕÎ1
+G	java:S106L"+Replace this use of System.out by a logger.(Ÿ‚ßñ8£À¶ÕÎ1
+G	java:S106O"+Replace this use of System.out by a logger.(™ü¡ƒ8£À¶ÕÎ1
+G	java:S106P"+Replace this use of System.out by a logger.(¶©Ï˜8£À¶ÕÎ1
+G	java:S106Q"+Replace this use of System.out by a logger.(ÈÕ˜Ê8êï·ÕÎ1
