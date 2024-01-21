@@ -13,7 +13,7 @@ public class Sort012 {
     }
 
     public static void sortArrayDNFA(int[] arr){
-        //DNFA
+        //DNFA (Dutch National Flag Algorithm)
         //  000(low-1) (low)111(mid-1) (mid)1020102(high) (high+1)222(n-1)
         //take mid as your pointer
 

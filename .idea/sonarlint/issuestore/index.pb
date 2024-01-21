@@ -90,3 +90,5 @@ R
 "src/MediumArrayProblem/TwoSum.java,3\a\3a1b6e5c8f21d9813b5ac140f12a7a85bf66d2f5
 S
 #src/MediumArrayProblem/Sort012.java,b\2\b2694601cf056e60ba05a6f6f22975b8d48753af
+\
+,src/MediumArrayProblem/MajorityElements.java,1\c\1c5ef510fe5a4dc33d2cb71cff841c2e94973fe8
