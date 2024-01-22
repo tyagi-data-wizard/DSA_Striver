@@ -1,6 +1,9 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÔõÊâüÿÿÿÿ8Ó”¬ÛĞ1
-F	java:S106;"+Replace this use of System.out by a logger.(ïÇI8‚•¬ÛĞ1
-G	java:S106>"+Replace this use of System.out by a logger.( ›ËÛ8‚•¬ÛĞ1
-G	java:S106I"+Replace this use of System.out by a logger.(óĞ¶×8‚•¬ÛĞ1
-G	java:S106J"+Replace this use of System.out by a logger.(Ìªºˆ8‚•¬ÛĞ1
+x
+java:S1192h"[Define a constant instead of duplicating this literal "The Majority Element is : " 3 times.(óĞ¶×8î“—•Ó1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÔõÊâüÿÿÿÿ8î“—•Ó1
+F	java:S106Z"+Replace this use of System.out by a logger.(ïÇI8¹”—•Ó1
+G	java:S106]"+Replace this use of System.out by a logger.( ›ËÛ8¹”—•Ó1
+G	java:S106h"+Replace this use of System.out by a logger.(óĞ¶×8É”—•Ó1
+G	java:S106i"+Replace this use of System.out by a logger.(Ìªºˆ8É”—•Ó1
+L	java:S106j"+Replace this use of System.out by a logger.(–‘ıÿÿÿÿ8É”—•Ó1

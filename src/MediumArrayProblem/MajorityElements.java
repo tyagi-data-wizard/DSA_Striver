@@ -6,6 +6,37 @@ import java.util.Scanner;
 public class MajorityElements {
 
 
+    public static int findMajorityElementMooreVotingAlog(int[] arr){
+
+        int el=arr[0];
+        int count = 0;
+
+        for (int i = 1; i<arr.length; i++){
+
+
+            if(count==0){
+                count++;
+                el = arr[i];
+            }else if(el == arr[i]){
+                count++;
+            }else{
+                count--;
+            }
+
+        }
+        int verifyCount = 0;
+        for(int i =0;i<arr.length;i++){
+            if(el==arr[i]){
+                verifyCount++;
+            }
+        }
+        if(verifyCount> (arr.length/2)){
+            return el;
+        }
+        return -1;
+    }
+
+
     public static int findMajorityElementBetter(int[] arr){
         HashMap<Integer,Integer> map = new HashMap<>();
         for (int i : arr){
@@ -72,5 +103,6 @@ public class MajorityElements {
 
         System.out.println("The Majority Element is : "+ findMajorityElementUnique(arr));
         System.out.println("The Majority Element is : "+ findMajorityElementBetter(arr));
+        System.out.println("The Majority Element is : "+ findMajorityElementMooreVotingAlog(arr));
     }
 }
