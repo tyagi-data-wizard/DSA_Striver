@@ -7,7 +7,7 @@ public class MajorityElements {
 
 
     public static int findMajorityElementMooreVotingAlog(int[] arr){
-
+        //do + and -  for each instance of element el
         int el=arr[0];
         int count = 0;
 
