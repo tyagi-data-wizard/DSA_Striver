@@ -1,0 +1,27 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÔõÊâüÿÿÿÿ8ÎË²ÿİ1
+_
+java:S1854"=Remove this useless assignment to local variable "maxProfit".(‰€Œşÿÿÿÿ8×Ë²ÿİ1
+D
+java:S1659
+""Declare "sell" on a separate line.(‚ Ëıÿÿÿÿ8×Ë²ÿİ1
+P
+java:S1481".Remove this unused "maxProfit" local variable.(‰€Œşÿÿÿÿ8×Ë²ÿİ1
+Z
+java:S1854"8Remove this useless assignment to local variable "sell".(‚ Ëıÿÿÿÿ8Á‘µÿİ1
+D
+java:S1659""Declare "sell" on a separate line.(‚ Ëıÿÿÿÿ8×Ë²ÿİ1
+K
+java:S1481")Remove this unused "sell" local variable.(‚ Ëıÿÿÿÿ8Á‘µÿİ1
+C
+java:S1659."!Declare "end" on a separate line.(Û‚ÌÎøÿÿÿÿ8×Ë²ÿİ1
+L
+java:S1481."*Remove this unused "start" local variable.(Û‚ÌÎøÿÿÿÿ8æË²ÿİ1
+J
+java:S1481."(Remove this unused "end" local variable.(Û‚ÌÎøÿÿÿÿ8æË²ÿİ1
+F	java:S106A"+Replace this use of System.out by a logger.(ïÇI8æË²ÿİ1
+G	java:S106D"+Replace this use of System.out by a logger.( ›ËÛ8æË²ÿİ1
+]	java:S125N"<This block of commented-out lines of code should be removed.(šâ”Áüÿÿÿÿ8æË²ÿİ1
+F	java:S106Q"+Replace this use of System.out by a logger.(Ã‰Š#8æË²ÿİ1
+L	java:S106R"+Replace this use of System.out by a logger.(¯ÓÔ§ÿÿÿÿÿ8æË²ÿİ1
+G	java:S106S"+Replace this use of System.out by a logger.(˜ÓÌ¢8îÌ³ÿİ1
